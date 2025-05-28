@@ -1,0 +1,20 @@
+# CMake generated Testfile for 
+# Source directory: /home/ccorral/repos/leonardo/external/nitro/externals/coda-oss/modules/c++/mem
+# Build directory: /home/ccorral/repos/leonardo/external/nitro/externals/coda-oss/build/modules/c++/mem
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(mem_test_Span "/home/ccorral/repos/leonardo/external/nitro/externals/coda-oss/build/modules/c++/mem/test_Span")
+set_tests_properties(mem_test_Span PROPERTIES  _BACKTRACE_TRIPLES "/home/ccorral/repos/leonardo/external/nitro/externals/coda-oss/cmake/CodaBuild.cmake;433;add_test;/home/ccorral/repos/leonardo/external/nitro/externals/coda-oss/modules/c++/mem/CMakeLists.txt;12;coda_add_tests;/home/ccorral/repos/leonardo/external/nitro/externals/coda-oss/modules/c++/mem/CMakeLists.txt;0;")
+add_test(mem_test_scoped_cloneable_ptr "/home/ccorral/repos/leonardo/external/nitro/externals/coda-oss/build/modules/c++/mem/test_scoped_cloneable_ptr")
+set_tests_properties(mem_test_scoped_cloneable_ptr PROPERTIES  _BACKTRACE_TRIPLES "/home/ccorral/repos/leonardo/external/nitro/externals/coda-oss/cmake/CodaBuild.cmake;433;add_test;/home/ccorral/repos/leonardo/external/nitro/externals/coda-oss/modules/c++/mem/CMakeLists.txt;12;coda_add_tests;/home/ccorral/repos/leonardo/external/nitro/externals/coda-oss/modules/c++/mem/CMakeLists.txt;0;")
+add_test(mem_test_scoped_copyable_ptr "/home/ccorral/repos/leonardo/external/nitro/externals/coda-oss/build/modules/c++/mem/test_scoped_copyable_ptr")
+set_tests_properties(mem_test_scoped_copyable_ptr PROPERTIES  _BACKTRACE_TRIPLES "/home/ccorral/repos/leonardo/external/nitro/externals/coda-oss/cmake/CodaBuild.cmake;433;add_test;/home/ccorral/repos/leonardo/external/nitro/externals/coda-oss/modules/c++/mem/CMakeLists.txt;12;coda_add_tests;/home/ccorral/repos/leonardo/external/nitro/externals/coda-oss/modules/c++/mem/CMakeLists.txt;0;")
+add_test(mem_test_scratch_memory "/home/ccorral/repos/leonardo/external/nitro/externals/coda-oss/build/modules/c++/mem/test_scratch_memory")
+set_tests_properties(mem_test_scratch_memory PROPERTIES  _BACKTRACE_TRIPLES "/home/ccorral/repos/leonardo/external/nitro/externals/coda-oss/cmake/CodaBuild.cmake;433;add_test;/home/ccorral/repos/leonardo/external/nitro/externals/coda-oss/modules/c++/mem/CMakeLists.txt;12;coda_add_tests;/home/ccorral/repos/leonardo/external/nitro/externals/coda-oss/modules/c++/mem/CMakeLists.txt;0;")
+add_test(mem_test_shared_ptr "/home/ccorral/repos/leonardo/external/nitro/externals/coda-oss/build/modules/c++/mem/test_shared_ptr")
+set_tests_properties(mem_test_shared_ptr PROPERTIES  _BACKTRACE_TRIPLES "/home/ccorral/repos/leonardo/external/nitro/externals/coda-oss/cmake/CodaBuild.cmake;433;add_test;/home/ccorral/repos/leonardo/external/nitro/externals/coda-oss/modules/c++/mem/CMakeLists.txt;12;coda_add_tests;/home/ccorral/repos/leonardo/external/nitro/externals/coda-oss/modules/c++/mem/CMakeLists.txt;0;")
+add_test(mem_test_unique_ptr "/home/ccorral/repos/leonardo/external/nitro/externals/coda-oss/build/modules/c++/mem/test_unique_ptr")
+set_tests_properties(mem_test_unique_ptr PROPERTIES  _BACKTRACE_TRIPLES "/home/ccorral/repos/leonardo/external/nitro/externals/coda-oss/cmake/CodaBuild.cmake;433;add_test;/home/ccorral/repos/leonardo/external/nitro/externals/coda-oss/modules/c++/mem/CMakeLists.txt;12;coda_add_tests;/home/ccorral/repos/leonardo/external/nitro/externals/coda-oss/modules/c++/mem/CMakeLists.txt;0;")
+add_test(mem_test_vector_pointers "/home/ccorral/repos/leonardo/external/nitro/externals/coda-oss/build/modules/c++/mem/test_vector_pointers")
+set_tests_properties(mem_test_vector_pointers PROPERTIES  _BACKTRACE_TRIPLES "/home/ccorral/repos/leonardo/external/nitro/externals/coda-oss/cmake/CodaBuild.cmake;433;add_test;/home/ccorral/repos/leonardo/external/nitro/externals/coda-oss/modules/c++/mem/CMakeLists.txt;12;coda_add_tests;/home/ccorral/repos/leonardo/external/nitro/externals/coda-oss/modules/c++/mem/CMakeLists.txt;0;")

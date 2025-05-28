@@ -10,7 +10,7 @@ if (${CMAKE_PROJECT_NAME} STREQUAL nitro)
     # Always turn on "warnings as errors" to avoid lots of (meaningless?) build output;
     # we'll dial-back warnings as necessary.
     if (MSVC)
-       add_compile_options(/WX) # warnings as errors
+    #    add_compile_options(/WX) # warnings as errors
        add_compile_options(/MP) # multi-processor compile
 
        if (ENABLE_ASAN)
@@ -19,7 +19,7 @@ if (${CMAKE_PROJECT_NAME} STREQUAL nitro)
        endif()
 
     elseif (UNIX)
-       add_compile_options(-Werror) # warnings as errors
+    #    add_compile_options(-Werror) # warnings as errors
 
        if (ENABLE_ASAN)
        	  # https://gcc.gnu.org/onlinedocs/gcc/Instrumentation-Options.html

@@ -11,7 +11,7 @@ endif()
 
 coda_add_module(
     ${MODULE_NAME}
-    DEPS ${CMAKE_DL_LIBS} config-c++
+    DEPS ${CMAKE_DL_LIBS} config++
     SOURCES
         source/DateTime.c
         source/Debug.c

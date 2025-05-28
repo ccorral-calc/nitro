@@ -118,7 +118,7 @@ coda_add_tests(
         test_tre_read.cpp)
 
 add_executable(show_nitf++ apps/show_nitf++.cpp)
-target_link_libraries(show_nitf++ PRIVATE nitf-c++)
+target_link_libraries(show_nitf++ PRIVATE nitf-c++ PRIVATE str-c++)
 
 install(TARGETS show_nitf++
         ${CODA_INSTALL_OPTION}

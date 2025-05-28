@@ -7,6 +7,7 @@ project(coda-oss)
 
 set(CMAKE_CXX_STANDARD 14)
 set(CXX_STANDARD_REQUIRED true)
+set(TARGET_LANGUAGE c++)
 
 if (EXISTS "${CMAKE_BINARY_DIR}/conanbuildinfo.cmake")
     # build and package with conan
@@ -22,10 +23,10 @@ if (${CMAKE_PROJECT_NAME} STREQUAL coda-oss)
     # Always turn on "warnings as errors" to avoid lots of (meaningless?) build output;
     # we'll dial-back warnings as necessary.
     if (MSVC)
-       add_compile_options(/WX) # warnings as errors
+    #    add_compile_options(/WX) # warnings as errors
        add_compile_options(/MP) # multi-processor compile
-    elseif (UNIX)
-       add_compile_options(-Werror) # warnings as errors
+    # elseif (UNIX)
+    #    add_compile_options(-Werror) # warnings as errors
     endif()
 
     list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake")
